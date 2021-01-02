@@ -1,0 +1,258 @@
+body{
+	background-color: #EEEEEE;
+	margin: 0;
+}
+
+.link{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+.header{
+	margin-top: 0;
+	max-height: 340px;
+	background-color: #fff;
+	color: #ADD8E6;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  padding: 0 0.8em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.header-nav-list {
+  display: inline-block;
+}
+.header-nav-list {
+  display: inline-block;
+}
+
+.header-nav-item {
+  float: left;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+  text-align: center;
+  list-style: none;
+}
+
+.header-nav-item a {
+  text-decoration: none;
+}
+
+.header-ham {
+  display: none;
+}
+
+.menu2 {
+  width: 20px;
+  height: 3px;
+  margin: 4px 0;
+  margin-right: 0;
+  background-color: #333;
+}
+
+.select {
+  color: #444;
+}
+
+.header-nav-item:hover {
+  background: #eee;
+}
+
+.logo img {
+  width: 70px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-nav-list {
+    display: none;
+  }
+
+  .header-nav {
+    margin: 0 0 0 auto;
+  }
+
+  .header-ham {
+    display: block;
+  }
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+
+#title{
+	font-size: 45px;
+	margin-top: 0;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.contentwrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; 
+}
+
+.content{
+	padding: 10px 10px 10px 10px;
+	font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    width: 80%;
+
+}
+
+#inputBtn,
+button{
+	margin-top: 30px;
+	max-width: auto;
+	padding: 15px 10px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #fff;
+	background-color: #ADD8E6;
+	border-radius: 5px;
+	border: none;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+table tr {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+}
+table tr:nth-child(even){
+  background-color: #eee;
+}
+table th,
+table td {
+  padding: .35em 1em;
+}
+table th {
+    font-size: .85em;
+    padding: 1em;
+    color:#fff;
+    text-align: center;
+}
+
+table tbody th {
+  text-align: left;
+}
+
+table th{
+    background-color: #607D8B;
+}
+
+table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+table tr {
+margin-bottom: .625em;
+border: 1px solid #fff;
+}
+table td {
+border-bottom: 1px dotted #bbb;
+font-size: .8em;
+text-align: center;
+position: relative;
+padding: 1.5em 1em 1.5em 4em;
+border-right: none;
+}
+
+
+.kakeiboBasicInfo{
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+.kakeiboHistory{
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+.kakeiboHistoryScroll{
+	overflow: scroll;
+	height: 500px;
+}
+.kakeiboHistoryScroll th{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.kakeiboSummary{
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+	display: flex;
+}
+
+.kakeiboAnalyze{
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+.easyInput{
+	background-color: #fff;
+	width: 20%;
+	height: 250px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+}
+#easyInputButton{
+	text-align: center;
+
+}
+
+.inputWindow{
+	background-color: #fff;
+	text-align: center;
+	width: 400px;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+	padding: 30px;
+}
+.inputWindow input{
+	margin: 10px 0;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+}
+
